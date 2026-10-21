@@ -1,0 +1,286 @@
+[
+    {
+        "text": "THIẾU MEN G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            0,
+            14
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "Thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            27,
+            41
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "Thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            55,
+            69
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1019,
+            1033
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1137,
+            1151
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1229,
+            1243
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1371,
+            1385
+        ],
+        "assertions": [
+            "isNegated"
+        ],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1497,
+            1511
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "Sốt cao",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1632,
+            1639
+        ],
+        "assertions": []
+    },
+    {
+        "text": "Thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            2276,
+            2290
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            2517,
+            2531
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            2864,
+            2878
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            3079,
+            3093
+        ],
+        "assertions": [
+            "isNegated"
+        ],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            3268,
+            3282
+        ],
+        "assertions": [
+            "isFamily"
+        ],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            3317,
+            3331
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "*******",
+        "type": "THUỐC",
+        "position": [
+            3455,
+            3462
+        ],
+        "assertions": []
+    },
+    {
+        "text": "**********",
+        "type": "THUỐC",
+        "position": [
+            3468,
+            3478
+        ],
+        "assertions": []
+    },
+    {
+        "text": "***********",
+        "type": "THUỐC",
+        "position": [
+            3498,
+            3509
+        ],
+        "assertions": []
+    },
+    {
+        "text": "********",
+        "type": "THUỐC",
+        "position": [
+            3511,
+            3519
+        ],
+        "assertions": []
+    },
+    {
+        "text": "*******",
+        "type": "THUỐC",
+        "position": [
+            3547,
+            3554
+        ],
+        "assertions": []
+    },
+    {
+        "text": "***********",
+        "type": "THUỐC",
+        "position": [
+            3556,
+            3567
+        ],
+        "assertions": []
+    },
+    {
+        "text": "**********",
+        "type": "THUỐC",
+        "position": [
+            3569,
+            3579
+        ],
+        "assertions": []
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            3880,
+            3894
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            4186,
+            4200
+        ],
+        "assertions": [
+            "isNegated"
+        ],
+        "candidates": [
+            "D55.0"
+        ]
+    },
+    {
+        "text": "thiếu men G6PD",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            4229,
+            4243
+        ],
+        "assertions": [],
+        "candidates": [
+            "D55.0"
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Local vector database & artifacts
+medical_vector_db/
+output/
+*.zip
+*.log
+.vscode/
+.idea/
