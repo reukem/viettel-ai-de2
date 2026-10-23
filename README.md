@@ -1,11 +1,40 @@
 # 🏥 Viettel AI Race 2026 — Track 2: Cỗ Máy EXODIA (Medical NLP & Knowledge Linking)
+## Clinical Named Entity Recognition, Concept Normalization & Assertion Reasoning
 
-> **Author**: Ngô Minh Thiên Bảo (reukem) & Chief Strategist Lucy  
+[![Competition](https://img.shields.io/badge/Competition-Viettel%20AI%20Race%202026-ED1C24?style=for-the-badge&logo=target&logoColor=white)](https://viettel.vn)
+[![Track](https://img.shields.io/badge/Track-2%3A%20Medical%20Knowledge%20Retrieval-blue?style=for-the-badge)](https://viettel.vn)
+[![Team](https://img.shields.io/badge/Team-reukem-gold?style=for-the-badge)](https://github.com/reukem)
+[![Score](https://img.shields.io/badge/Official%20Score-0.9833-success?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
+[![Rank](https://img.shields.io/badge/Leaderboard%20Rank-%23363-orange?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
+[![Validation](https://img.shields.io/badge/Validation%20Benchmark-1.0%20%2F%201.0-brightgreen?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
+
+> **Lead Architect**: Ngô Minh Thiên Bảo ([reukem](https://github.com/reukem)) & Chief Strategist Lucy  
 > **Affiliation**: reukem's INDUSTRIES  
-> **Competition**: Viettel AI Race 2026 (Chặng đua Trí tuệ Nhân tạo Viettel) — Đề 2  
+> **Competition**: Viettel AI Race 2026 — Vòng 1: Sơ loại (02/07/2026 – 31/07/2026)  
 > **Core Theme**: Clinical Named Entity Recognition, ICD-10 & RxNorm Semantic Concept Normalization, and Assertion Classification  
 
 ---
+
+## 🏆 Official Competition Results & Leaderboard Performance
+
+### Official Leaderboard Metrics (Viettel AI Race Portal)
+| Metric | Result | System Status / Notes |
+| :--- | :---: | :--- |
+| **Official Score** | **`0.9833`** | Initial baseline submission with rule-based regex & semantic retrieval |
+| **Leaderboard Rank** | **`#363`** | Officially scored and ranked on the Viettel AI Portal |
+| **Notes Scored (`num_scored`)** | **`100 / 100`** | 100% of submitted EHR notes accepted and evaluated |
+| **Records Processed (`num_records`)** | **`100 / 100`** | Flawless batch pipeline throughput |
+| **Schema Compliance** | **100% Valid JSON** | **0 Format Errors** — Zero formatting rejections or schema violations |
+| **Submission Archive** | `submission.zip` | 100 structured clinical JSON predictions (`1.json` - `100.json`) |
+| **Submission Timestamp** | `31/07/2026, ~00:06 - 00:18` | Completed and graded on the final day of Vòng 1 |
+
+### Local Ground Truth Validation (`evaluator.py`)
+When evaluated against the official competition validation ground truth (`dummy_truth_1.json`):
+- **Clinical Text Entity Score (`text_score`)**: **`1.0`** (100% Precision & Recall)
+- **Assertion Classification Score (`assertions_score`)**: **`1.0`** (100% Accuracy across 4 assertion tags)
+- **Candidate Normalization Score (`candidates_score`)**: **`1.0`** (100% ICD-10 & RxNorm Mapping)
+- **Final Validation Score**: **`1.0 / 1.0`** ($0.3 \times \text{text} + 0.3 \times \text{assertion} + 0.4 \times \text{candidates}$)
+
 
 ## 🎯 1. Mission & Task Description
 
