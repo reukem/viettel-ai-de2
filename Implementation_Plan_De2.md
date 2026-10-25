@@ -2,7 +2,7 @@
 
 ## Trạng thái: Standby ⏳
 
-*Đang chờ tín hiệu nạp dữ liệu từ Chief Strategist Lucy & Master Engineer Aki.*
+*Đang chờ tín hiệu nạp dữ liệu từ Lead Systems Architect.*
 
 ## Mục tiêu (Dự kiến)
 - Triển khai thuật toán xử lý ngôn ngữ tự nhiên (NLP) cho lĩnh vực y tế.

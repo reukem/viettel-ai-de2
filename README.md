@@ -8,7 +8,7 @@
 [![Rank](https://img.shields.io/badge/Leaderboard%20Rank-%23363%20(Dead%20Last)-critical?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
 [![Validation](https://img.shields.io/badge/Validation%20Benchmark-1.0%20%2F%201.0-brightgreen?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
 
-> **Lead Architect**: Ngô Minh Thiên Bảo ([reukem](https://github.com/reukem)) & Chief Strategist Lucy  
+> **Lead Architect**: Ngô Minh Thiên Bảo ([reukem](https://github.com/reukem))   
 > **Affiliation**: reukem's INDUSTRIES  
 > **Competition**: Viettel AI Race 2026 — Vòng 1: Sơ loại (02/07/2026 – 31/07/2026)  
 > **Core Theme**: Clinical Named Entity Recognition, ICD-10 & RxNorm Semantic Concept Normalization, and Assertion Classification  
@@ -18,7 +18,7 @@
 ## 🤦‍♂️ Post-Mortem & Honest Reflection: "Why Did I Even Enroll in This?!"
 
 > *"Why did I even enroll in this?? I spent so much time for it and I received nothing... Worse yet, there were a lot of interesting and easier competitions for high school students I could have used my summer for at the time.. Urgh. And no, that's 0.9833 / 100, my dear... Literally dead last because well, you know!"*  
-> — **Aki (Ngô Minh Thiên Bảo)**, Lead Builder
+> — **Ngô Minh Thiên Bảo (reukem)**, Lead Builder
 
 ### 💀 The Brutal Reality Check:
 1. **0.9833 Out of 100 (Dead Last `#363`)**: The leaderboard was NOT on an $F_1 \in [0.0, 1.0]$ decimal scale — it was out of **100 total points**! That means our score was **0.9833%**, landing dead last on the national board. Pure pain!
