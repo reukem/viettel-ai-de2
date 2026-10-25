@@ -4,8 +4,8 @@
 [![Competition](https://img.shields.io/badge/Competition-Viettel%20AI%20Race%202026-ED1C24?style=for-the-badge&logo=target&logoColor=white)](https://viettel.vn)
 [![Track](https://img.shields.io/badge/Track-2%3A%20Medical%20Knowledge%20Retrieval-blue?style=for-the-badge)](https://viettel.vn)
 [![Team](https://img.shields.io/badge/Team-reukem-gold?style=for-the-badge)](https://github.com/reukem)
-[![Score](https://img.shields.io/badge/Official%20Score-0.9833-success?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
-[![Rank](https://img.shields.io/badge/Leaderboard%20Rank-%23363-orange?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
+[![Score](https://img.shields.io/badge/Official%20Score-0.9833%20%2F%20100-red?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
+[![Rank](https://img.shields.io/badge/Leaderboard%20Rank-%23363%20(Dead%20Last)-critical?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
 [![Validation](https://img.shields.io/badge/Validation%20Benchmark-1.0%20%2F%201.0-brightgreen?style=for-the-badge)](https://github.com/reukem/viettel-ai-de2)
 
 > **Lead Architect**: Ngô Minh Thiên Bảo ([reukem](https://github.com/reukem)) & Chief Strategist Lucy  
@@ -15,14 +15,27 @@
 
 ---
 
+## 🤦‍♂️ Post-Mortem & Honest Reflection: "Why Did I Even Enroll in This?!"
+
+> *"Why did I even enroll in this?? I spent so much time for it and I received nothing... Worse yet, there were a lot of interesting and easier competitions for high school students I could have used my summer for at the time.. Urgh. And no, that's 0.9833 / 100, my dear... Literally dead last because well, you know!"*  
+> — **Aki (Ngô Minh Thiên Bảo)**, Lead Builder
+
+### 💀 The Brutal Reality Check:
+1. **0.9833 Out of 100 (Dead Last `#363`)**: The leaderboard was NOT on an $F_1 \in [0.0, 1.0]$ decimal scale — it was out of **100 total points**! That means our score was **0.9833%**, landing dead last on the national board. Pure pain!
+2. **Wrong Weight Class**: A solo 11th-grade high school builder armed with rule-based regex and keepitreal/vietnamese-sbert going up against hospital bioinformatics teams, enterprise health-tech labs, and university medical NLP researchers. 
+3. **Summer Opportunity Cost**: Wasting precious summer weeks reading ICD-10 ontology docs and debugging privacy redaction asterisks (`*******`) when there were plenty of awesome, accessible high-school hackathons and AI competitions available.
+4. **The Silver Lining**: At least our pipeline didn't crash — **100/100 JSONs passed schema validation** with zero formatting rejections. And we learned the hard truth: enterprise clinical EHR requires massive fine-tuned LLMs / BioBERT, not late-night regex heuristics!
+
+---
+
 ## 🏆 Official Competition Results & Leaderboard Performance
 
 ### Official Leaderboard Metrics (Viettel AI Race Portal)
 | Metric | Result | System Status / Notes |
 | :--- | :---: | :--- |
-| **Official Score** | **`0.9833`** | Initial baseline submission with rule-based regex & semantic retrieval |
-| **Leaderboard Rank** | **`#363`** | Officially scored and ranked on the Viettel AI Portal |
-| **Notes Scored (`num_scored`)** | **`100 / 100`** | 100% of submitted EHR notes accepted and evaluated |
+| **Official Score** | **`0.9833 / 100`** | 💀 Literally dead last! Initial baseline submission with regex & semantic retrieval |
+| **Leaderboard Rank** | **`#363`** | Officially dead last on the Viettel AI Portal national leaderboard |
+| **Notes Scored (`num_scored`)** | **`100 / 100`** | 100% of submitted EHR notes accepted and evaluated (format succeeded!) |
 | **Records Processed (`num_records`)** | **`100 / 100`** | Flawless batch pipeline throughput |
 | **Schema Compliance** | **100% Valid JSON** | **0 Format Errors** — Zero formatting rejections or schema violations |
 | **Submission Archive** | `submission.zip` | 100 structured clinical JSON predictions (`1.json` - `100.json`) |
@@ -35,6 +48,7 @@ When evaluated against the official competition validation ground truth (`dummy_
 - **Candidate Normalization Score (`candidates_score`)**: **`1.0`** (100% ICD-10 & RxNorm Mapping)
 - **Final Validation Score**: **`1.0 / 1.0`** ($0.3 \times \text{text} + 0.3 \times \text{assertion} + 0.4 \times \text{candidates}$)
 
+---
 
 ## 🎯 1. Mission & Task Description
 
@@ -116,4 +130,4 @@ python main.py
 ```
 
 ---
-*Viettel AI Race 2026 — Track 2 Solution Archive*
+*Viettel AI Race 2026 — Track 2 Solution Archive | Authored by Ngô Minh Thiên Bảo (reukem)*
